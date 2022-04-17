@@ -1,0 +1,224 @@
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  font-size: 15px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  background-color: #3a4764;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app.hassan .logo h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #232c43 !important;
+}
+
+.app.hassan .theme span {
+  color: #232c43 !important;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.app.hassan .theme .box {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white !important;
+  cursor: pointer;
+}
+
+.app.hassan .theme .box .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #d03f2f !important;
+  margin: 2.5px 2px;
+  position: absolute;
+  right: 0 !important;
+  left: auto !important;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.app.hassan .theme .box .nums {
+  top: -20px;
+  left: 0;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5px;
+  color: white !important;
+}
+
+.app.hassan .screen input {
+  background-color: white !important;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 5px 15px;
+  color: #232c43 !important;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.app.hassan .calc-signs {
+  background-color: white !important;
+  border-radius: 5px;
+  padding: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.app.hassan .calc-signs .one {
+  background-color: #232c43 !important;
+  color: white !important;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 32px;
+}
+
+.app.hassan .calc-signs .two {
+  background-color: #3a4764 !important;
+  color: #232c43 !important;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.app.hassan .calc-signs .equal {
+  background-color: #d03f2f !important;
+  color: #232c43 !important;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 32px;
+}
+
+@media (min-width: 992px) {
+  .app .calculator {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+.app .calculator .head .logo h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.app .calculator .head .theme span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.app .calculator .head .theme .box {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #232c43;
+  cursor: pointer;
+}
+
+.app .calculator .head .theme .box .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #d03f2f;
+  margin: 2.5px 2px;
+  position: absolute;
+  left: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.app .calculator .head .theme .box .nums {
+  top: -20px;
+  left: 0;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5px;
+  color: white;
+}
+
+.app .calculator .screen input {
+  background-color: #232c43;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 5px 15px;
+  color: white;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.app .calculator .calc-signs {
+  background-color: #232c43;
+  border-radius: 5px;
+  padding: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.app .calculator .calc-signs .one {
+  background-color: white;
+  color: #232c43;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 32px;
+}
+
+.app .calculator .calc-signs .two {
+  background-color: #3a4764;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.app .calculator .calc-signs .equal {
+  background-color: #d03f2f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 32px;
+}
+/*# sourceMappingURL=style.css.map */

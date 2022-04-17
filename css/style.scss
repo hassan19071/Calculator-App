@@ -1,0 +1,196 @@
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.app{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(222, 26%, 31%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    &.hassan{
+        .logo{
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                color: hsl(223, 31%, 20%) !important;
+            }
+        }
+        .theme{
+            span{
+                color:hsl(223, 31%, 20%) !important;
+                text-transform: uppercase;
+                font-size: 13px;
+            }
+            .box{
+                width: 80px;
+                height: 30px;
+                border-radius: 20px;
+                background-color: hsl(0, 0, 100%) !important;
+                cursor: pointer;
+                .circle{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    background-color:  hsl(6, 63%, 50%) !important;
+                    margin: 2.5px 2px;
+                    position: absolute;
+                    right: 0 !important;
+                    left: auto !important;
+                    transition: .3s;
+                }
+                .nums{
+                    top: -20px;
+                    left: 0;
+                    width: 100%;
+                    justify-content: space-between;
+                    display: flex;
+                    padding: 0 5px;
+                    color:hsl(0, 0, 100%) !important;
+                }
+            }
+        }
+        .screen{
+            input{
+             background-color: hsl(0, 0, 100%) !important;
+             width: 100%;
+             border: none;
+             outline: none;
+             font-size: 32px;
+             font-weight: 700;
+             padding: 5px 15px;
+             color: hsl(223, 31%, 20%) !important;
+             text-align: right;
+             border-radius: 5px;
+            }
+         }
+         .calc-signs{
+            background-color: hsl(0, 0, 100%) !important;
+            border-radius: 5px;
+            padding:15px;
+            user-select: none;
+            .one{
+                background-color:hsl(223, 31%, 20%) !important;
+                color:hsl(0, 0, 100%) !important;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 7px;
+                font-size: 32px;
+            }
+            .two{
+                background-color:hsl(222, 26%, 31%) !important;
+                color:hsl(223, 31%, 20%) !important;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 7px;
+                font-size: 32px;
+                text-transform: uppercase;
+            }
+            .equal{
+                background-color:hsl(6, 63%, 50%) !important;
+                color:hsl(223, 31%, 20%) !important;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 7px;
+                font-size: 32px;
+            }
+        }
+    }
+    .calculator{
+        @media (min-width:992px) {
+            width: 60%;
+            margin: auto;
+        }
+        .head{
+            .logo{
+                h3{
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: hsl(0, 0, 100%);
+                }
+            }
+            .theme{
+                span{
+                    color:hsl(0, 0, 100%);
+                    text-transform: uppercase;
+                    font-size: 13px;
+                }
+                .box{
+                    width: 80px;
+                    height: 30px;
+                    border-radius: 20px;
+                    background-color: hsl(223, 31%, 20%);
+                    cursor: pointer;
+                    .circle{
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        background-color:  hsl(6, 63%, 50%);
+                        margin: 2.5px 2px;
+                        position: absolute;
+                        left: 0;
+                        transition: .3s;
+                    }
+                    .nums{
+                        top: -20px;
+                        left: 0;
+                        width: 100%;
+                        justify-content: space-between;
+                        display: flex;
+                        padding: 0 5px;
+                        color:hsl(0, 0, 100%) ;
+                    }
+                }
+            }
+        }
+        .screen{
+           input{
+            background-color: hsl(223, 31%, 20%);
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 32px;
+            font-weight: 700;
+            padding: 5px 15px;
+            color: hsl(0, 0, 100%);
+            text-align: right;
+            border-radius: 5px;
+           }
+        }
+        .calc-signs{
+            background-color: hsl(223, 31%, 20%);
+            border-radius: 5px;
+            padding:15px;
+            user-select: none;
+            .one{
+                background-color:hsl(0, 0, 100%);
+                color:hsl(223, 31%, 20%);
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 7px;
+                font-size: 32px;
+            }
+            .two{
+                background-color:hsl(222, 26%, 31%);
+                color:hsl(0, 0, 100%);
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 7px;
+                font-size: 32px;
+                text-transform: uppercase;
+            }
+            .equal{
+                background-color:hsl(6, 63%, 50%);
+                color:hsl(0, 0, 100%);
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 7px;
+                font-size: 32px;
+            }
+        }
+    }
+}
